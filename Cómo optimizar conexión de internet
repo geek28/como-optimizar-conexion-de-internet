@@ -1,0 +1,94 @@
+Cómo aumentar la velocidad del internet usando el registro de Windows  
+  
+Nuevo” y seleccione “DWORD (32 bits)
+Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters
+  
+1 IRPStackSize hexadecimal Cambie los datos del valor a 32   
+ 
+2 SizReqBuf hexadecimal Cambie los datos del valor a 17424   
+
+Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters
+
+3 DefaultTTL hexadecimal Cambie los datos del valor a 64
+  
+4 TCP1323Opts hexadecimal Cambie los datos del valor a 1 
+ 
+5 MaxFreeTcbs hexadecimal Cambie los datos del valor a 65536 
+ 
+6 MaxUserPort hexadecimal Cambie los datos del valor a 65534 
+ 
+7 GlobalMaxTcpWindowSize decimal Cambie los datos del valor a 256960
+ 
+8 TcpWindowSize decimal Cambie los datos del valor a 256960  
+ 
+Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\Interface ID
+
+When PowerShell launches, type ipconfig and press Enter on your keyboard. 
+ 
+Escriba la siguiente línea de comando y presione Enter. 
+ 
+9 ping -f -l <mtu> <your gateway>
+ 
+10 MTU hexadecimal Cambie los datos del valor a  
+   
+ Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters
+
+11 EnablePMTUBHDetect hexadecimal Cambie los datos del valor a 1
+ 
+12 EnablePMTUDiscovery hexadecimal Cambie los datos del valor a 1
+ 
+13 TcpMaxDupAcks hexadecimal Cambie los datos del valor a 2 
+ 
+14 SackOpts hexadecimal Cambie los datos del valor a 1
+  
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Psched
+
+15 NonBestEffortLimit hexadecimal Cambie los datos del valor a 0 
+
+Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\Interface ID
+
+16 TcpAckFrequency hexadecimal Cambie los datos del valor a 1 
+ 
+17 TCPNoDelay hexadecimal Cambie los datos del valor a 1
+ 
+18 TcpDelAckTicks hexadecimal Cambie los datos del valor a 0 
+ 
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters" 
+ 
+19 CacheHashTableBucketSize hexadecimal Cambie los datos del valor a 1
+    
+20 CacheHashTableSize hexadecimal Cambie los datos del valor a 384 
+
+21 MaxCacheEntryTtlLimit decimal Cambie los datos del valor a 64000 
+
+22 MaxSOACacheEntryTtlLimit decimal Cambie los datos del valor a 301
+ 
+23 MaxNegativeCacheTtl hexadecimal Cambie los datos del valor a 0 
+
+24 NegativeCacheTime hexadecimal Cambie los datos del valor a 0 
+  
+25 NetFailureCacheTime hexadecimal Cambie los datos del valor a 0
+ 
+26 NegativeSOACacheTime hexadecimal Cambie los datos del valor a 0
+
+27 MaxCacheTtl hexadecimal Cambie los datos del valor a 86400  
+  
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\TcpIp\Parameters
+
+28 KeepAliveTime decimal Cambie los datos del valor a 1800000
+  
+29 EnableDeadGWDetect hexadecimal Cambie los datos del valor a 0
+
+30 TcpMaxDataRetransmissions hexadecimal Cambie los datos del valor a 5 
+ 
+31 TcpTimedWaitDelay decimal Cambie los datos del valor a 30 
+
+32 EnableICMPRedirect hexadecimal Cambie los datos del valor a 1 
+
+33 DisableTaskOffload hexadecimal Cambie los datos del valor a 0 
+  
+34 TcpMaxConnectRetransmissions hexadecimal Cambie los datos del valor a 3 
+ 
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile 
+ 
+35 NetworkThrottlingIndex hexadecimal Cambie los datos del valor a ffffffff
