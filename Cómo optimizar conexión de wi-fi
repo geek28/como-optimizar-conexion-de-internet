@@ -19,7 +19,13 @@ Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters
  
 7 GlobalMaxTcpWindowSize decimal Cambie los datos del valor a 256960
  
-8 TcpWindowSize decimal Cambie los datos del valor a 256960  
+8 TcpWindowSize decimal Cambie los datos del valor a 256960
+
+9 ARPCacheLife hexadecimal Cambie los datos del valor a 708 
+
+10 ArpCacheMimReferencedLife decimal Cambie los datos del valor a e10 
+
+11 ArpCacheSize decimal Cambie los datos del valor a c8
  
 Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\Interface ID
 
@@ -51,7 +57,9 @@ Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\I
  
 17 TCPNoDelay hexadecimal Cambie los datos del valor a 1
  
-18 TcpDelAckTicks hexadecimal Cambie los datos del valor a 0 
+18 TcpDelAckTicks hexadecimal Cambie los datos del valor a 0
+
+19 TCPInitialRtt hexadecimal Cambie los datos del valor a 2
  
 HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters" 
  
