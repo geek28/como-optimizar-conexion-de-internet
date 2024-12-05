@@ -101,7 +101,14 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\Syste
  
 35 NetworkThrottlingIndex hexadecimal Cambie los datos del valor a ffffffff     
 
-tienes que reiniciar tu computadora para que los cambios hagan efecto
+ [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
+
+ MaxConnectionsPer1_0Server hexadecimal Cambie los datos del valor a A
+
+ MaxConnectionsPerServer hexadecimal Cambie los datos del valor a A
+
+ tienes que reiniciar tu computadora para que los cambios hagan efecto 
+
  
 
 
