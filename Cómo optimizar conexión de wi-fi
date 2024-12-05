@@ -99,7 +99,9 @@ HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\TcpIp\Parameters
  
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile 
  
-35 NetworkThrottlingIndex hexadecimal Cambie los datos del valor a ffffffff    
+35 NetworkThrottlingIndex hexadecimal Cambie los datos del valor a ffffffff     
+
+tienes que reiniciar tu computadora para que los cambios hagan efecto
  
 
 
