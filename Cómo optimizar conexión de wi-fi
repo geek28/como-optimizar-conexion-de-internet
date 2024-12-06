@@ -25,7 +25,9 @@ Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters
 
 10 ArpCacheMimReferencedLife decimal Cambie los datos del valor a e10 
 
-11 ArpCacheSize decimal Cambie los datos del valor a c8
+11 ArpCacheSize decimal Cambie los datos del valor a c8 
+
+12 EnablePMTUBHDetect hexadecimal Cambie los datos del valor a 0
  
 Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters\Interfaces\Interface ID
 
