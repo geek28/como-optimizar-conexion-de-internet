@@ -1,2 +1,3 @@
 # C-mo-optimizar-conexi-n-de-internet
+![Static Badge](https://img.shields.io/badge/https%3A%2F%2Fimg.shields.io%2Fbadge%2Fgithub-repo-blue%3Flogo%3Dgithub)
 Hoy en día, todos damos por sentado que el Internet algunas veces es lenta pero hay manera de mejorar la conexión una de esa manera en entrando profundamente en el registro de Windows como esto ajuste para el Windows va a mejorar tu conexión de internet te va a mejorar la conexión de internet eso significa de página web más rápido videojuego en línea más rápido videos streaming más rápido descargue archivo más rápido todo en internet mas rápido y con esta nueva versión que yo creé para usted van a aprovechar de la banda ancha un 100% esta es la nueva versión 6.10
